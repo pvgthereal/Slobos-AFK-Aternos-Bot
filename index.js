@@ -1,3 +1,6 @@
+const keepAlive = require('./server');
+keepAlive();
+
 "use strict";
 
 const { addLog, getLogs } = require("./logger");
